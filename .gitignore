@@ -40,7 +40,7 @@ pip-delete-this-directory.txt
 
 
 # Flask stuff:
-instance/
+#instance/
 .webassets-cache
 
 # Env files
