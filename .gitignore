@@ -44,9 +44,9 @@ instance/
 .webassets-cache
 
 # Env files
-.env
-.env.*
-.flaskenv
+#.env
+#.env.*
+#.flaskenv
 
 
 # IDE files
