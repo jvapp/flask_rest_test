@@ -44,7 +44,8 @@ pip-delete-this-directory.txt
 .webassets-cache
 
 # Env files
-#.env
+.env
+.venv
 #.env.*
 #.flaskenv
 

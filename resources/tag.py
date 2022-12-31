@@ -8,6 +8,7 @@ from schemas import TagSchema, TagAndItemSchema
 
 blp = Blueprint("tags", __name__, description="Operations on tags")
 
+
 @blp.route("/store/<int:store_id>/tag")
 class TagsInStore(MethodView):
     @blp.response(200, TagSchema(many=True))
@@ -69,6 +70,7 @@ class LinkTagsToItem(MethodView):
             )
 
         return {"message": "Item removed from tag", "item": item, "tag": tag}
+
 
 @blp.route("/tag/<int:tag_id>")
 class Tag(MethodView):
