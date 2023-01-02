@@ -8,6 +8,6 @@ passlib
 flask-migrate
 gunicorn
 psycopg2
+redis
 requests
 rq
-redis
